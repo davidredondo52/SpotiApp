@@ -10,13 +10,19 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { APP_ROUTING } from './app.routes';
 import { SpotifyService } from './services/spotify.service';
 import { SinfotoPipe } from './pipes/sinfoto.pipe';
+import { ArtistaComponent } from './components/artista/artista.component';
+import { SinaudioPipe } from './pipes/sinaudio.pipe';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SearchComponent,
     NavbarComponent,
-    SinfotoPipe
+    SinfotoPipe,
+    ArtistaComponent,
+    SinaudioPipe,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,
